@@ -101,7 +101,7 @@
 		UPDATE BOARD SET HIT = HIT + 1 WHERE NUM = #{num}
 	</update>
 
-	//게시판 삭제 
+	<!-- 게시판 삭제 --> 
 	<delete id="delete">
 		DELETE FROM BOARD WHERE NUM = #{num}
 	</delete>
